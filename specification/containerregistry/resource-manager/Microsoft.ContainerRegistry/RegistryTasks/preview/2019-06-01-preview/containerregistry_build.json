@@ -1481,7 +1481,7 @@
       "type": "object",
       "allOf": [
         {
-          "$ref": "#/definitions/ProxyResource"
+          "$ref": "../../../../../../common-types/resource-management/v6/types.json#/definitions/ProxyResource"
         }
       ],
       "properties": {
@@ -1920,12 +1920,12 @@
       "type": "object",
       "allOf": [
         {
-          "$ref": "#/definitions/ProxyResource"
+          "$ref": "../../../../../../common-types/resource-management/v6/types.json#/definitions/ProxyResource"
         }
       ],
       "properties": {
         "identity": {
-          "$ref": "#/definitions/IdentityProperties",
+          "$ref": "../../../Registry/stable/2025-11-01/containerregistry.json#/definitions/IdentityProperties",
           "description": "Identity for the resource."
         },
         "properties": {
@@ -2028,7 +2028,7 @@
       "type": "object",
       "properties": {
         "identity": {
-          "$ref": "#/definitions/IdentityProperties",
+          "$ref": "../../../Registry/stable/2025-11-01/containerregistry.json#/definitions/IdentityProperties",
           "description": "Identity for the resource."
         },
         "properties": {
@@ -2107,7 +2107,7 @@
       ],
       "properties": {
         "identity": {
-          "$ref": "#/definitions/IdentityProperties",
+          "$ref": "../../../Registry/stable/2025-11-01/containerregistry.json#/definitions/IdentityProperties",
           "description": "Identity for the resource."
         },
         "properties": {
@@ -2590,7 +2590,7 @@
       "type": "object",
       "properties": {
         "identity": {
-          "$ref": "#/definitions/IdentityProperties",
+          "$ref": "../../../Registry/stable/2025-11-01/containerregistry.json#/definitions/IdentityProperties",
           "description": "Identity for the resource."
         },
         "properties": {
